@@ -178,11 +178,18 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .social-links li a {
-    font-size: 0;
+  .social-links {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .social-links li a i {
-    font-size: 1.5rem;
+  .social-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links li a {
+    font-size: 1rem; /* Keep label visible */
+    justify-content: center;
   }
 }
