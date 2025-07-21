@@ -150,3 +150,33 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00eaff;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .social-links span {
+    display: none;
+  }
+}
