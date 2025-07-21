@@ -216,3 +216,8 @@ footer {
     max-height: 150px;
   }
 }
+nav a.active {
+  color: #ff5722; /* REEVERB orange */
+  border-bottom: 2px solid #ff5722;
+  padding-bottom: 2px;
+}
